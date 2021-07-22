@@ -1,5 +1,5 @@
 # Website
-[Cat Project](cat-project.netlify.app)
+[Cat Project](https://cat-project.netlify.app/)
 
 # Getting Started with Create React App
 
