@@ -1,0 +1,34 @@
+.breed-card {
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.2s ease-in-out;
+  min-width: 200px;
+  padding: 16px;
+  align-content: space-between;
+  display: grid;
+}
+
+.breed-card:hover {
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+}
+
+.breed-name {
+  color: #40a9ff;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.img-block {
+  height: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.breed-img {
+  max-height: 116px;
+  max-width: 180px;
+}

@@ -1,0 +1,50 @@
+.breed-modal-info {
+  width: fit-content;
+}
+
+.breed-modal-info .img-block {
+  height: auto;
+}
+
+.breed-modal-info .breed-img {
+  max-height: 240px;
+  max-width: 300px;
+}
+
+.all-params {
+  font-size: 12px;
+  line-height: 24px;
+  margin: 16px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+}
+
+.param {
+  display: grid;
+  font-weight: 400;
+  grid-template-columns: repeat(2, auto);
+}
+
+@media (min-width: 519px) {
+  .param.long {
+    min-width: 280px;
+  }
+}
+
+.sec-column {
+  text-align: right;
+}
+
+.long .sec-column {
+  text-align: left;
+}
+
+.accent-text {
+  font-weight: 600;
+  color: #40a9ff;
+}
+
+.long .accent-text {
+  min-width: 88px;
+}

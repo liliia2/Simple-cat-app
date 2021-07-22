@@ -1,0 +1,71 @@
+.loader,
+.failed {
+  margin: auto;
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(128, 128, 128);
+  font-weight: 600;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader img {
+  width: 40px;
+  height: 48px;
+  margin: auto;
+  animation: spin 2s linear 0s infinite;
+}
+
+.breeds {
+  margin: 0 24px 24px 24px;
+  display: grid;
+  grid-gap: 16px;
+}
+
+.content-wrapper {
+  padding: 94px 0 48px;
+}
+
+.accent {
+  color: #40a9ff;
+  font-weight: 600;
+}
+
+@media (min-width: 1440px) {
+  .breeds {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1439px) and (min-width: 1020px) {
+  .breeds {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1019px) and (min-width: 770px) {
+  .breeds {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 769px) and (min-width: 520px) {
+  .breeds {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 519px) {
+  .breeds {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
